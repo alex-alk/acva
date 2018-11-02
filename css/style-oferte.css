@@ -1,0 +1,413 @@
+body{
+    background-color:#d6e9c6;
+}
+*{
+    margin:0;
+    padding:0;
+}
+#header{
+    margin-bottom: 2em;
+    
+}
+#header>img{
+    display:block;
+    margin:5px auto;
+    width: 40%;
+    min-width:15em;
+    padding-left:-6em;
+}
+li{
+    border-radius: 3px;
+}
+ul{
+    margin-bottom: 1em;
+    list-style-type: none;
+}
+.nav ul li{ 
+    background-color: green;
+    margin-bottom: 1em;
+}
+#aside{
+    float: left;
+    padding: 0.4em;
+    padding-right: 1em;
+    padding-left:0.9em;
+    background-color: rgba(100,150,100,0.5);
+    border-radius: 5px;
+    clear: left;
+    margin:0 0.5em;
+}
+.main{
+    margin-left:8.5em;
+    border-width: 3px;;
+    border-style: double;
+    border-color:#255625;
+}
+input{
+    vertical-align:text-bottom;
+}
+#header_left{
+    float:left;
+}
+#header_left ul{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0.5em;
+    margin-top:.5em;
+}
+#header_left ul li:hover{
+    transform: scale(1.02,1.02);
+    opacity:0.8;
+    cursor: pointer;
+}
+.nav a{
+    text-decoration: none;
+    color:white;
+    display: block;
+    padding: 0.5em;
+}
+#header_right{
+    float:right;
+    
+    
+}
+#header_right ul li{
+    list-style-type: none;
+    text-decoration: none;
+    background-color: green;
+    margin-top:0.5em;
+}
+#header_right ul{
+    margin-right: 0.5em;
+}
+#header_right ul li:hover{
+    transform: scale(1.02,1.02);
+    opacity:0.8;
+    cursor: pointer;
+}
+#figure{
+    border:1px solid green;
+    width:100px;
+    margin:1em;
+    transition: 0.3s;
+    display:inline-block;
+}
+#figure:hover{
+    transform: scale(1.02,1.02);
+    cursor: pointer;
+    opacity: 0.92;
+}
+   
+#figure img{
+    border-bottom: 1px solid green;
+}
+#figcaption{
+    width:100px;
+    text-align: center;
+}
+p.name{
+    border-bottom: 1px solid green;
+}
+h1{
+    text-align:center;
+    font-family:serif;
+    color:#255625;
+}
+section a{
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    padding: 0.5em;
+    float:left;
+    clear:left;
+    margin-top: 1em;
+}
+section a:hover{
+    opacity: 0.8;
+}
+#aside label{
+    font-size: 1.1em;
+    position: relative;
+    top: -0.7em;
+}
+#aside label:hover{
+    text-shadow: black 3px 3px 30px;
+}
+#aside p{
+    margin-bottom: -0.5em;
+}
+input[type="checkbox"]{
+    transform: scale(1.25,1.25);
+    margin-bottom: 0.9em;
+}
+.main input{
+    width: 8em;
+    margin-left: 8em; 
+    margin-left: 1em;
+}
+#script{
+    width:20em;
+    margin-left: 1em;
+    margin-top: 1em;
+    padding:0.5em;
+}
+#noscript{
+    width:20em;
+    margin-left: 1em;
+    margin-top: 1em;
+    padding:0.5em;
+}
+.main label{
+    width: 8em;
+    float:left;
+    text-align: right;
+}
+form span{
+    display:block;
+    margin-left: 9em;
+}
+input[name="create"]{
+    width:7em;
+    margin-left: 6em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    background-color: green;
+    padding: 0.5em;
+    border-radius: 10px;
+    color:white;
+}
+input[name="enter"]{
+    width:7em;
+    margin-left: 6em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    background-color: green;
+    padding: 0.5em;
+    border-radius: 10px;
+    color:white;
+}
+input[type="button"]:hover{
+    transform: scale(1.02,1.02);
+    opacity: 0.9;
+}
+.white{
+    color: #d6e9c6;
+}
+.red{
+    color: red;
+}
+#navinreg{
+    width: 8em;
+    margin: 1em;
+}
+#navinreg li:hover{
+    transform: scale(1.02,1.02);
+    opacity: 0.9;
+}
+#admform{
+    padding:1em;
+}
+#startpage{
+    width: 8em;
+    margin: 1em;
+}
+#startpage:hover{
+    transform: scale(1.02,1.02);
+    opacity: 0.9;
+}
+td{
+    border: 1px solid green;
+    padding: 1em;
+    text-align: center;
+}
+table{
+    white-space:normal;
+    width:5em;
+    margin-bottom: -1em;
+}
+#imbutton{
+    display:block;
+    border: 1px solid black;
+    background-color: gray;
+    padding: 0.25em;
+    border-radius: 0.25em;
+    width:8em;
+    margin:0 auto;
+}
+#imbutton:hover{
+    opacity:0.9;
+    cursor: pointer;
+}
+input[name="submit"]{
+    display:block;
+    margin:0 auto;
+    margin-top:-11em;
+}
+#scriptadd{
+    border: none;
+    width: 15em;
+    margin-left: 1em;
+    margin-top: 1em;
+    padding:0.5em;
+}
+.button{
+    width:10em;
+    margin-left: 3.5em;
+    margin-bottom: 1em;
+    background-color: green;
+    padding: 0.5em;
+    border-radius: 10px;
+    color:white;
+}
+.button:hover{
+    transform: scale(1.02,1.02);
+    opacity: 0.9;
+}
+#passchange{
+    margin-top: -1em;
+}
+#admform label{
+    width: 5em;
+    margin-left: -2em;
+}
+#scriptadm{
+    margin-left: 1em;
+    padding: 1em;
+    width: 17em;
+    border-width: 3px;;
+    border-style: double;
+    border-color:#255625;
+}
+#enteracc{
+    margin-left: 4em;
+}
+li:hover{
+    transform: scale(1.02,1.02);
+    opacity: 0.9;
+}
+#navsch{
+    width: 11em;
+    margin: 0 auto;
+}
+#entersch{
+    width: 9em;
+}
+#cart{
+    background: url("../images/cos.png") no-repeat ;
+    width: 6em;
+    padding-left: 35px;
+}
+a{
+    color: black;
+}
+#descr{
+    width:20em;
+    margin-bottom: -4px;
+}
+input[name="submitc"]{
+    margin-left: 6em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    background-color: green;
+    padding: 0.5em;
+    border-radius: 10px;
+    color:white;
+}
+input[type="submit"]:hover{
+    transform: scale(1.02,1.02);
+    opacity: 0.9;
+}
+.orderimg{
+    height: 5em;
+    float: left;
+}
+#mainorders{
+    margin:0;
+    max-width: 400px;
+    height: 5em;
+    margin-left: 1em;
+}
+.title{
+    margin-top: 0em;
+    margin-left: 8em;
+    margin-bottom: 0.5em;
+}
+#quantity{
+    margin-top: 0em;
+    margin-left: 2em; 
+}
+input[name="submitcc"]{
+    margin-left: 0em;
+    margin-bottom: 1em;
+    margin-top: 1.5em;
+    background-color: green;
+    padding: 0.5em;
+    border-radius: 10px;
+    color:white;
+    width: 11em;
+}
+#maindesc{
+    margin-left: 1em;
+}
+#crt{
+    width: 10em;
+}
+.bottom{
+    
+    border:none;
+}
+#addadd{
+    margin-left: 0em;
+}
+label{
+    margin-left: 9em !important;
+    width: 2em !important;
+    margin-top: -3.7em !important;
+}
+span{
+    margin-left: -0.6em !important;
+    display: block !important;
+    padding-top: 3em;
+    margin-top: -3em;
+}
+
+input[style="width:100px"]{
+    margin-left: 4em;
+    display: block;
+    margin-top: 1.5em !important;
+    
+}
+.jfilestyle-corner{
+    margin-bottom: -6em;
+}
+#categoryl{
+    margin-top: -2em !important;
+    margin-left: 0 !important;
+}
+#category{
+    margin-bottom: 1em;
+}
+#fileaddf{
+    margin-left: 1em;
+    width: 10em;
+    display: block;
+    margin: 7em auto;
+}
+span.focus-jfilestyle label{
+    padding-left: 10em;
+    margin-left: 13em !important;
+}
+#add{
+    background-color: green;
+    padding:  0.5em;
+    color: white;
+    border-radius: 5px;
+    margin-top: -1em;
+    display: block;
+    
+}
+
+
+
+
+
